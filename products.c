@@ -74,7 +74,7 @@ void free_product(struct product* product) {
  * Return:
  *   Should return a pointer to the newly allocated dynamic array containing
  *   newly-created product structs.  The i'th product in this array should have
- *   the i'th name, the i'th ID, and the i'th GPA from the arrays provided as
+ *   the i'th name, the i'th inventory, and the i'th price from the arrays provided as
  *   arguments.
  */
 struct dynarray* create_product_array(int num_products, char** names, int* inventory, float* prices) {
