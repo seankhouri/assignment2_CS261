@@ -273,8 +273,6 @@ void sort_by_inventory(struct dynarray* products) {
         min_product = current;
       }
     }
-
-    // Swap if needed
     if (min_idx != i) {
       struct product* temp = dynarray_get(products, i);
       dynarray_set(products, i, min_product);
